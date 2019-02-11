@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>basicProject</title>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="viewWrap">
+        <table id="factory_tbody">
+          <thead>
+            <th>테이블</th>
+            <th>만들기</th>
+            <th>삭제</th>
+          </thead>
+          <tbody>
+            <tr id="0" data="0">
+                <td>
+                  <input type="text" />
+                </td>
+                <td>
+                  <input type="text" />
+                </td>
+                <td>
+                  <input type='button' value='삭제' onClick='rowDelete(this);' />
+                <td>
+            </tr>
+          </tbody>
+          <button class="addBtn">추가하기</button>
+        </table>
+      </div>
+      <div class="viewWrap">
+          <table border='1'>
+            <thead>
+              <th>테이블</th>
+              <th>만들기</th>
+              <th>삭제</th>
+            </thead>
+            <tbody>
+              <tr>
+                  <td>
+                      <input type="text" />
+                    </td>
+                    <td>
+                      <input type="text" />
+                    </td>
+                    <td>
+                      <button>삭제하기</button>
+                    <td>
+              </tr>
+            </tbody>
+            <button class="addBtn">추가하기</button>
+          </table>
+        </div>
+    </div>
+  </body>
+  
+  <script src="basic.js"></script>
+</html>

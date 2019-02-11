@@ -1,0 +1,18 @@
+@charset "utf-8";
+*{
+  margin:0;
+  padding:0;
+}
+ul li {
+  list-style:none;
+}
+body{
+}
+.wrap{
+  white-space:nowrap
+}
+.viewWrap{
+  border:1px solid red;
+  display: inline-block;
+  width:50%;
+}
